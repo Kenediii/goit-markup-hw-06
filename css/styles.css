@@ -256,6 +256,7 @@ span {
             url(../images/background-mobile.jpg);
     }
     .one-tittle {
+        margin-bottom: 72px;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
