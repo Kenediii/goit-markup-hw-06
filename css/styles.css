@@ -154,7 +154,19 @@ span {
 }
 
 .burger-icon {
-    
+    display: none;
+}
+
+@media (max-width: 320px ) {
+    .navigation-bar {
+        display: none;
+    }
+    .contact-information_header {
+       display: none; 
+    }
+    .burger-icon {
+        display: block;
+    }
 }
 
 
