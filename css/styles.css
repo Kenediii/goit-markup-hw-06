@@ -304,14 +304,14 @@ span {
 }
 
 @media (max-width: 320px) {
+    .section-description_menu-container {
+        display: block;
+    }
     .section-description {
         padding: 96px 0;
     }
      .description-svg {
         display: none;
-    }
-    .section-description_menu-container {
-        display: block;
     }
     .container-svg {
         display: none;
