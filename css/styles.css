@@ -152,6 +152,12 @@ span {
 .social-link:hover {
     color: var(--blue);
 }
+
+.burger-icon {
+    
+}
+
+
 /* перша секція */
 
 .section-effective-solutions {
