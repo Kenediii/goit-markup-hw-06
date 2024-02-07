@@ -245,6 +245,12 @@ span {
     background-color: var(--blue);
 }
 
+@media (max-width: 320px) {
+    .section-effective-solutions {
+        max-width: 100%;
+    }
+}
+
 /* друга секція*/
 
 .container-svg {
