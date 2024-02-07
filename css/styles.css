@@ -460,6 +460,16 @@ span {
     padding: 32px 0;
 }
 
+@media (max-width: 320px) {
+    .section-our-team_menu-container {
+        display: block;
+    }
+
+    .section-description_first-point {
+        width: 100%;
+    }
+}
+
 /* four section */
 
 .portfolio {
