@@ -327,6 +327,10 @@ span {
     .section-description_menu-container_li {
         width: 100%;
     }
+    .section-description_text {
+        font-weight: 500;
+        letter-spacing: 0.02em;
+    }
 }
 
 
