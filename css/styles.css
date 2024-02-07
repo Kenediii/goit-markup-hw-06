@@ -307,7 +307,7 @@ span {
     .section-description {
         padding: 96px 0;
     }
-    .section-description_menu-container .section-description_menu-container_li .description-svg {
+     .description-svg {
         display: none;
     }
     .section-description_menu-container {
