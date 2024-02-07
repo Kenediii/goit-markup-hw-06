@@ -162,7 +162,7 @@ span {
     .header {
         height: 56px;
     }
-    
+
     .navigation-bar {
         display: none;
     }
@@ -319,10 +319,8 @@ span {
 @media (max-width: 320px) {
     .section-description_menu-container {
         display: block;
-    }
-
-    .section-description {
-        padding: 96px 0;
+        margin-top: 92px;
+        margin-bottom: 20px;
     }
 
      .description-svg {
@@ -335,6 +333,7 @@ span {
 
     .section-description_menu-container_li {
         width: 100%;
+        margin-bottom: 72px;
     }
 
     .section-description_tittle {
