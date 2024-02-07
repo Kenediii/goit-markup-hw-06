@@ -171,9 +171,8 @@ span {
         justify-content: center;
         margin-left: 149px;
     }
-    .left-footer {
-        width: 115px;
-        height: 24px;
+    .menu-header-menu-container {
+        margin-right: 0px;
     }
 }
 
