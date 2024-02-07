@@ -155,6 +155,7 @@ span {
 
 .burger-icon {
     display: none;
+    
 }
 
 @media (max-width: 320px ) {
@@ -165,7 +166,10 @@ span {
        display: none; 
     }
     .burger-icon {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 59px;
     }
 }
 
