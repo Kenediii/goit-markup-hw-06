@@ -304,7 +304,7 @@ span {
 }
 
 @media (max-width: 320px) {
-    .description-svg {
+    .section-description_menu-container .section-description_menu-container_li .description-svg {
         display: none;
     }
     .section-description_menu-container {
