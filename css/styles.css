@@ -772,6 +772,24 @@ span {
         align-items: center;
         justify-content: center;
     }
+
+    .last-footer {
+        margin-left: 0;
+    }
+
+    .last-footer_text {
+        display: block;
+        text-align: center;
+    }
+
+    .last-footer_form {
+        display: block;
+    }
+
+    .last-footer_label {
+        display: block;
+        text-align: center;
+    }
 }
 
 /*modal-menu*/
