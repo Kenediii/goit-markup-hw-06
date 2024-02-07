@@ -324,6 +324,9 @@ span {
     .container-svg {
         display: none;
     }
+    .section-description_menu-container_li {
+        width: 100%;
+    }
 }
 
 
