@@ -743,6 +743,13 @@ span {
     fill: var(--cloud);
 }
 
+
+@media (max-width: 320px) {
+    .footer .container {
+        display: block;
+    }
+}
+
 /*modal-menu*/
 
 .is-open {
