@@ -162,12 +162,15 @@ span {
     .header {
         height: 56px;
     }
+    
     .navigation-bar {
         display: none;
     }
+
     .contact-information_header {
        display: none; 
     }
+
     .burger-icon {
         display: flex;
         align-items: center;
@@ -175,6 +178,7 @@ span {
         margin-left: 149px;
         margin-top: 15px;
     }
+
     .menu-header-menu-container {
         width: 115px;
         height: 24px;
@@ -255,6 +259,7 @@ span {
             ),
             url(../images/background-mobile.jpg);
     }
+
     .one-tittle {
         margin-bottom: 72px;
         font-family: "Roboto", sans-serif;
@@ -315,18 +320,32 @@ span {
     .section-description_menu-container {
         display: block;
     }
+
     .section-description {
         padding: 96px 0;
     }
+
      .description-svg {
         display: none;
     }
+
     .container-svg {
         display: none;
     }
+
     .section-description_menu-container_li {
         width: 100%;
     }
+
+    .section-description_tittle {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px; 
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
     .section-description_text {
         font-weight: 500;
         letter-spacing: 0.02em;
