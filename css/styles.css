@@ -317,6 +317,10 @@ span {
 }
 
 @media (max-width: 320px) {
+    .section-description {
+        padding: 0;
+    }
+
     .section-description_menu-container {
         display: block;
         margin-top: 92px;
@@ -461,12 +465,16 @@ span {
 }
 
 @media (max-width: 320px) {
+    .section-our-team {
+        padding: 96px 0;
+    }
     .section-our-team_menu-container {
         display: block;
     }
 
     .section-description_first-point {
         width: 100%;
+        margin-bottom: 72px;
     }
 }
 
