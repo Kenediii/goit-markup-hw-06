@@ -173,11 +173,13 @@ span {
         align-items: center;
         justify-content: center;
         margin-left: 149px;
+        margin-top: 15px;
     }
     .menu-header-menu-container {
         width: 115px;
         height: 24px;
         margin-right: 0px;
+        margin-top: 15px;
     }
 }
 
