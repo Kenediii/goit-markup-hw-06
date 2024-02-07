@@ -784,12 +784,9 @@ span {
 
     .last-footer_form {
         display: block;
-    }
-
-    .last-footer_label {
-        display: block;
         text-align: center;
     }
+
 }
 
 /*modal-menu*/
