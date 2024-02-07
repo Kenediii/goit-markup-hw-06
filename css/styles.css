@@ -562,6 +562,22 @@ span {
     border-top: none;
 }
 
+@media (max-width: 320px) {
+    .portfolio {
+        padding-top: 96px;
+        padding-bottom: 48px;
+    }
+
+    .portfolio_menu-container {
+        display: block;
+    }
+
+    .portfolio_first-point {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+}
+
 /* футер */
 
 .footer{
