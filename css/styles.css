@@ -303,6 +303,15 @@ span {
     margin-bottom: 8px;
 }
 
+@media (max-width: 320px) {
+    .description-svg {
+        display: none;
+    }
+    .section-description_menu-container {
+        display: block;
+    }
+}
+
 /* третя секція*/
 
 .section-our-team {
