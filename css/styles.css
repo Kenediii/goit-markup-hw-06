@@ -172,6 +172,8 @@ span {
         margin-left: 149px;
     }
     .menu-header-menu-container {
+        width: 115px;
+        height: 24px;
         margin-right: 0px;
     }
 }
