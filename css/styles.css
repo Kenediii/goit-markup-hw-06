@@ -270,6 +270,19 @@ span {
 
 /* друга секція*/
 
+@media (max-width: 320px) {
+    .section-description {
+        padding: 96px 0;
+    }
+    .section-description_menu-container .section-description_menu-container_li .description-svg {
+        display: none;
+    }
+    .section-description_menu-container {
+        display: block;
+    }
+}
+
+
 .container-svg {
     display: flex;
     justify-content: center;
@@ -301,18 +314,6 @@ span {
     line-height: 24px;
     letter-spacing: 0.32px;
     margin-bottom: 8px;
-}
-
-@media (max-width: 320px) {
-    .section-description {
-        padding: 96px 0;
-    }
-    .section-description_menu-container .section-description_menu-container_li .description-svg {
-        display: none;
-    }
-    .section-description_menu-container {
-        display: block;
-    }
 }
 
 /* третя секція*/
