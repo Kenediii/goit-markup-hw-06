@@ -248,6 +248,12 @@ span {
 @media (max-width: 320px) {
     .section-effective-solutions {
         max-width: 100%;
+        background-image: linear-gradient(
+            to bottom, 
+            rgba(46, 47, 66, 0.70), 
+            rgba(46, 47, 66, 0.70)
+            ),
+            url(../images/background-mobile.jpg);
     }
 }
 
