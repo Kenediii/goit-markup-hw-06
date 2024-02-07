@@ -270,19 +270,6 @@ span {
 
 /* друга секція*/
 
-@media (max-width: 320px) {
-    .section-description {
-        padding: 96px 0;
-    }
-    .section-description_menu-container .section-description_menu-container_li .description-svg {
-        display: none;
-    }
-    .section-description_menu-container {
-        display: block;
-    }
-}
-
-
 .container-svg {
     display: flex;
     justify-content: center;
@@ -315,6 +302,22 @@ span {
     letter-spacing: 0.32px;
     margin-bottom: 8px;
 }
+
+@media (max-width: 320px) {
+    .section-description {
+        padding: 96px 0;
+    }
+    .section-description_menu-container .section-description_menu-container_li .description-svg {
+        display: none;
+    }
+    .section-description_menu-container {
+        display: block;
+    }
+    .container-svg {
+        display: none;
+    }
+}
+
 
 /* третя секція*/
 
