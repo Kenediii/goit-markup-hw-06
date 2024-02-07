@@ -758,6 +758,16 @@ span {
         text-align: center;
         margin-bottom: 72px;
     }
+
+    .right-footer_text {
+        display: block;
+        text-align: center;
+    }
+
+    .footer_social-media-links {
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 /*modal-menu*/
