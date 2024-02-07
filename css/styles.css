@@ -748,6 +748,16 @@ span {
     .footer .container {
         display: block;
     }
+
+    .left-footer {
+        margin-right: 0;
+    }
+
+    .logo-footer {
+        display: block;
+        text-align: center;
+        margin-bottom: 72px;
+    }
 }
 
 /*modal-menu*/
