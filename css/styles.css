@@ -282,6 +282,14 @@ span {
     margin-bottom: 8px;
 }
 
+.section-description_menu-container {
+    display: flex;
+    gap: 24px;
+}
+
+.section-description_menu-container_li {
+    width: calc((100% - 72px) / 4);
+}
 
 .section-description_tittle {
     color: var(--navy-blue);
@@ -407,14 +415,6 @@ span {
     fill: var(--cloud);
 }
 
-.section-description_menu-container {
-    display: flex;
-    gap: 24px;
-}
-
-.section-description_menu-container_li {
-    width: calc((100% - 72px) / 4);
-}
 
 .section-our-team {
     padding: 120px 0;
