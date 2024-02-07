@@ -759,6 +759,10 @@ span {
         margin-bottom: 72px;
     }
 
+    .right-footer {
+        margin-bottom: 72px;
+    }
+
     .right-footer_text {
         display: block;
         text-align: center;
