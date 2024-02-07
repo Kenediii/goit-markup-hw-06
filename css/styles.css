@@ -787,6 +787,9 @@ span {
         text-align: center;
     }
 
+    .last-footer_input {
+        margin-bottom: 16px;
+    }
 }
 
 /*modal-menu*/
