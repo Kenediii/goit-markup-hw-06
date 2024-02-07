@@ -304,6 +304,9 @@ span {
 }
 
 @media (max-width: 320px) {
+    .section-description {
+        padding: 96px 0;
+    }
     .section-description_menu-container .section-description_menu-container_li .description-svg {
         display: none;
     }
