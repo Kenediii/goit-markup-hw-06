@@ -137,6 +137,12 @@ span {
     gap: 40px;
 }
 
+@media screen and (min-width: 768) {
+    .navigation_address {
+        display: block;
+    }
+} 
+
 .social-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
