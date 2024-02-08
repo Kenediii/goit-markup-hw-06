@@ -229,7 +229,7 @@ span {
 }
 
     .burger-icon {
-        display: block;
+        display: flex;
         background-color: transparent;
         border: none;
 }
