@@ -152,42 +152,6 @@ span {
 .social-link:hover {
     color: var(--blue);
 }
-
-.burger-icon {
-    display: none;
-    
-}
-
-@media (max-width: 320px ) {
-    .header {
-        height: 56px;
-    }
-
-    .navigation-bar {
-        display: none;
-    }
-
-    .contact-information_header {
-       display: none; 
-    }
-
-    .burger-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 149px;
-        margin-top: 15px;
-    }
-
-    .menu-header-menu-container {
-        width: 115px;
-        height: 24px;
-        margin-right: 0px;
-        margin-top: 15px;
-    }
-}
-
-
 /* перша секція */
 
 .section-effective-solutions {
@@ -249,30 +213,6 @@ span {
     background-color: var(--blue);
 }
 
-@media (max-width: 320px) {
-    .section-effective-solutions {
-        padding: 72px 0;
-        background-image: linear-gradient(
-            to bottom, 
-            rgba(46, 47, 66, 0.70), 
-            rgba(46, 47, 66, 0.70)
-            ),
-            url(../images/background-mobile.jpg);
-    }
-
-    .one-tittle {
-        margin-bottom: 72px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-        color: #fff;
-    }
-}
-
 /* друга секція*/
 
 .container-svg {
@@ -287,14 +227,6 @@ span {
     margin-bottom: 8px;
 }
 
-.section-description_menu-container {
-    display: flex;
-    gap: 24px;
-}
-
-.section-description_menu-container_li {
-    width: calc((100% - 72px) / 4);
-}
 
 .section-description_tittle {
     color: var(--navy-blue);
@@ -315,46 +247,6 @@ span {
     letter-spacing: 0.32px;
     margin-bottom: 8px;
 }
-
-@media (max-width: 320px) {
-    .section-description {
-        padding: 0;
-    }
-
-    .section-description_menu-container {
-        display: block;
-        margin-top: 92px;
-        margin-bottom: 20px;
-    }
-
-     .description-svg {
-        display: none;
-    }
-
-    .container-svg {
-        display: none;
-    }
-
-    .section-description_menu-container_li {
-        width: 100%;
-        margin-bottom: 72px;
-    }
-
-    .section-description_tittle {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px; 
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-    }
-
-    .section-description_text {
-        font-weight: 500;
-        letter-spacing: 0.02em;
-    }
-}
-
 
 /* третя секція*/
 
@@ -444,6 +336,14 @@ span {
     fill: var(--cloud);
 }
 
+.section-description_menu-container {
+    display: flex;
+    gap: 24px;
+}
+
+.section-description_menu-container_li {
+    width: calc((100% - 72px) / 4);
+}
 
 .section-our-team {
     padding: 120px 0;
@@ -462,20 +362,6 @@ span {
 
 .container-our-team {
     padding: 32px 0;
-}
-
-@media (max-width: 320px) {
-    .section-our-team {
-        padding: 96px 0;
-    }
-    .section-our-team_menu-container {
-        display: block;
-    }
-
-    .section-description_first-point {
-        width: 100%;
-        margin-bottom: 72px;
-    }
 }
 
 /* four section */
@@ -560,22 +446,6 @@ span {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
-}
-
-@media (max-width: 320px) {
-    .portfolio {
-        padding-top: 96px;
-        padding-bottom: 48px;
-    }
-
-    .portfolio_menu-container {
-        display: block;
-    }
-
-    .portfolio_first-point {
-        width: 100%;
-        margin-bottom: 48px;
-    }
 }
 
 /* футер */
@@ -741,55 +611,6 @@ span {
 .button-footer-svg {
     margin-left: 16px;
     fill: var(--cloud);
-}
-
-
-@media (max-width: 320px) {
-    .footer .container {
-        display: block;
-    }
-
-    .left-footer {
-        margin-right: 0;
-    }
-
-    .logo-footer {
-        display: block;
-        text-align: center;
-        margin-bottom: 72px;
-    }
-
-    .right-footer {
-        margin-bottom: 72px;
-    }
-
-    .right-footer_text {
-        display: block;
-        text-align: center;
-    }
-
-    .footer_social-media-links {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .last-footer {
-        margin-left: 0;
-    }
-
-    .last-footer_text {
-        display: block;
-        text-align: center;
-    }
-
-    .last-footer_form {
-        display: block;
-        text-align: center;
-    }
-
-    .last-footer_input {
-        margin-bottom: 16px;
-    }
 }
 
 /*modal-menu*/
