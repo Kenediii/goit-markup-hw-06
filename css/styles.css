@@ -55,6 +55,16 @@ body {
     display: flex;
 }
 
+@media screen and (min-width: 768px) {
+    .header .container {
+        min-width: 768px;
+        padding-left: 16px;  
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+}
+
 .menu-header-menu-container {
     display: flex;
     align-items: center;
@@ -132,7 +142,7 @@ span {
     align-items: center;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
     .contact-information_header {
         display: block;
     }
