@@ -142,16 +142,17 @@ span {
     align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-    .contact-information_header {
-        display: block;
-    }
-}
-
 .navigation_address {
     display: flex;
     gap: 40px;
 }
+
+@media screen and (min-width: 768px) {
+    .navigation_address {
+        display: block;
+    }
+}
+
 
 .social-link {
     line-height: 1.5;
