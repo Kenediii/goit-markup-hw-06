@@ -57,7 +57,7 @@ body {
 
 @media screen and (min-width: 768px) {
     .header .container {
-        min-width: 768px;
+        min-width: 736px;
         padding-left: 16px;  
         padding-right: 16px;
         margin-left: auto;
