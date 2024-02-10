@@ -694,7 +694,7 @@ span {
 
 @media screen and (min-width: 768px) {
     .section-description_first-point {
-        min-width: 264px;
+        width: 264px;
         margin-bottom: 0;
     }
 }
