@@ -657,7 +657,9 @@ span {
 }
 
 .section-our-team_menu-container {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
