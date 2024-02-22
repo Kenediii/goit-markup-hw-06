@@ -53,7 +53,7 @@ body {
 
 @media screen and (min-width: 1158px) {
     .container {
-        min-width: 1126px; 
+        max-width: 1156px; 
     }
 } 
 
@@ -271,7 +271,7 @@ span {
             rgba(46, 47, 66, 0.70), 
             rgba(46, 47, 66, 0.70)
             ),
-            url(../images/background.jpg);
+            url(../images/background1x.jpg);
         margin: 0 auto;  
     }
 }
@@ -670,6 +670,13 @@ span {
     }    
 }
 
+@media screen and (min-width: 1158px) {
+    .portfolio_menu-container  {
+       flex-direction: none;
+
+    }
+}
+
 .portfolio_first-point {
     width: 100%;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -700,8 +707,8 @@ span {
     .portfolio_img {
         width: 356px;
     }
-
 }
+
 /* футер */
 
 .footer{
